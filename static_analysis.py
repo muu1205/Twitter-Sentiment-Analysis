@@ -38,10 +38,11 @@ sheet1 = wb.add_sheet('Sheet 1')
 
 tweets=[]
 
-consumer_key = 'OasHtQUm1FWXVeRl4mloCDCYy'
-consumer_secret = 'raZDNQK2ItPLDMM6x0k1l0IjIyZT3pu1ZCu98UE2Uw8aAkhY8t'
-access_token = '1609726374-j2Q4y6Jc6EBd0cORmObACgVZexpxG4maqnOVYxk'
-access_secret = 'u0uXLIVaPTinKk1Z3HdhFDnTlUIB6aFTsDC9px1Kn17XL'
+#Enter your own credentials
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
