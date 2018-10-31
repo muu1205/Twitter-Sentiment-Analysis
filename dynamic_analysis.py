@@ -23,10 +23,11 @@ plt.ion()
 
 import test
 
-ckey = 'OasHtQUm1FWXVeRl4mloCDCYy'
-csecret = 'raZDNQK2ItPLDMM6x0k1l0IjIyZT3pu1ZCu98UE2Uw8aAkhY8t'
-atoken = '1609726374-j2Q4y6Jc6EBd0cORmObACgVZexpxG4maqnOVYxk'
-asecret = 'u0uXLIVaPTinKk1Z3HdhFDnTlUIB6aFTsDC9px1Kn17XL'
+#Enter your own credentials
+ckey = ''
+csecret = ''
+atoken = ''
+asecret = ''
 
 
 class listener(StreamListener):
